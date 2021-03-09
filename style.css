@@ -1,0 +1,189 @@
+body, html {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ff9933;
+  font-family: poppins, sans-serif;
+  overflow-x: hidden;
+
+}
+
+#mainContainer {
+
+  position: static;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+
+#header {
+  display: flex;
+  /* height: 10vh; */
+  align-items: center;
+  justify-content: center;
+}
+
+#firstLine, #secondLine {
+  position: static;
+  display: flex;
+  justify-content: space-around;
+  /* padding-left: 100vmin; */
+  font-size: 50vmin;
+
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 4vmin;
+}
+
+#firstLine {
+  margin: -23vmin 0px 0px 30px;
+}
+
+#secondLine {
+  margin: -45vmin 0px 0px 186px;
+}
+
+#mainType, #overlapType {
+  position: static;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 70vmin;
+  letter-spacing: 5vmin;
+}
+#mainType {
+  margin: -20vmin 0px 0px 100px;
+}
+#overlapType {
+  color: #00BFFF;
+  margin: -100vmin 0px 0px 200px;
+  z-index: 1;
+}
+
+#writtenContent {
+  margin: -100px 0px -0px 0px;
+  width: 100%;
+
+  font-family: poppins, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+
+#sentences {
+  margin: 0 0 0 120px;
+
+}
+
+
+#firstSentenceOverlap {
+  color: #00BFFF;
+  position: absolute;
+  z-index: 1;
+  margin: .2px 0px 0px 120px;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 0px 0px 0px 50px;
+}
+
+
+#middleHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+
+#subType, #subOverlap {
+  position: static;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16vmin;
+  letter-spacing: 1vmin;
+
+}
+
+#subType {
+  margin: 20px 0px 0px 40px;
+}
+
+#subOverlap {
+  position: absolute;
+  z-index: 2;
+  margin: 25px 0px 0px 45px;
+  color: #00BFFF
+}
+
+#secondParagraph {
+  display: flex;
+  justify-content: flex-start;
+  font-family: poppins, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  padding-right: 0px;
+  margin: 100px 0px 100px 400px;
+  line-height: 30px;
+}
+
+#secondParagraphOverlap {
+  position: absolute;
+  z-index: 1;
+  color: #00BFFF;
+  margin: 100px 0px 0px 400px;
+
+}
+
+#location {
+  font-family: poppins, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  transform: rotate(-20deg);
+  margin: -200px 0px 250px 50px;
+  line-height: 15px;
+
+}
+/* horizontal line found on w3schools, rotated to match reference */
+#line1 {
+  margin: -200px 0px 0px -230px;
+  transform: rotate(90deg);
+  height: 2px;
+  width: 250px;
+  background-color: #00BFFF;
+
+}
+
+#line2 {
+  margin: -70px 0px 0px -260px;
+  transform: rotate(90deg);
+  height: 2px;
+  width: 500px;
+  background-color: #00BFFF;
+
+}
+
+
+footer {
+
+  font-family: poppins, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  text-align: right;
+  margin: 300px 20px 20px 0px;
+
+}
